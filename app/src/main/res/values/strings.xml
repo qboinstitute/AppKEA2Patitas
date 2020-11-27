@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AppKEA2Patitas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="valnavlistamascota">Mascotas Perdidas</string>
+    <string name="valnavregistravoluntario">Voluntario</string>
+    <string name="valtitulologin">AUTENTICACIÓN</string>
+    <string name="valetusuario">Ingrese su usuario</string>
+    <string name="valetpassword">Ingrese su password</string>
+    <string name="valcbguardarinfo">Guardar Información</string>
+    <string name="valbtnlogin">Ingresar</string>
+    <string name="valbtnregistrar">Registrar</string>
+    <string name="valetnombrereg">Ingrese su nombre</string>
+    <string name="valetapellidoreg">Ingrese su apellido</string>
+    <string name="valetemailreg">Ingrese su email</string>
+    <string name="valetcelularreg">Ingrese su número celular</string>
+    <string name="valetusuarioreg">Ingrese su usuario</string>
+    <string name="valetpasswordreg">Ingrese su password</string>
+    <string name="valetreppasswordreg">Repita su password</string>
+    <string name="valbtnregistrarusuario">REGISTRAR</string>
+    <string name="msgerrorlogin">Es obligatorio el usuario y password</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_listamascota">
+    <fragment
+        android:id="@+id/nav_listamascota"
+        android:name="com.qbo.appkea2patitas.ui.ListaMascotaFragment"
+        android:label="@string/valnavlistamascota"
+        tools:layout="@layout/fragment_lista_mascota" />
+    <fragment
+        android:id="@+id/nav_registravoluntario"
+        android:name="com.qbo.appkea2patitas.ui.RegistrarVoluntarioFragment"
+        android:label="@string/valnavregistravoluntario"
+        tools:layout="@layout/fragment_registrar_voluntario" />
+</navigation>
