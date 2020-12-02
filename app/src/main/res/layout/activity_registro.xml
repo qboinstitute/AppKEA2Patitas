@@ -22,6 +22,16 @@
             app:layout_constraintTop_toTopOf="parent"
             android:src="@drawable/ic_registro_usuario" />
 
+        <ProgressBar
+            android:id="@+id/pbregistrar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout15" />
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout3"
             style="@style/Widget.Design.TextInputLayout"
@@ -109,47 +119,52 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout13"
+            style="@style/Widget.Design.TextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/Widget.Design.TextInputLayout"
             android:layout_marginTop="8dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textInputLayout11">
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout11"
+            app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etpasswordreg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/valetpasswordreg" />
+                android:hint="@string/valetpasswordreg"
+                android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout15"
+            style="@style/Widget.Design.TextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             app:layout_constraintEnd_toEndOf="parent"
-            style="@style/Widget.Design.TextInputLayout"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textInputLayout13">
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout13"
+            app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etreppasswordreg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/valetreppasswordreg" />
+                android:hint="@string/valetreppasswordreg"
+                android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/btnregistrarusuario"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:text="@string/valbtnregistrarusuario"
+            app:icon="@drawable/ic_agregar_usuario"
+            app:iconGravity="textStart"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textInputLayout15" />
+            app:layout_constraintTop_toBottomOf="@+id/pbregistrar" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
